@@ -24,8 +24,21 @@ public class ClassesAndObjects {
         car2.drive(100);
         car3.drive(150);
 
+        System.out.println();
 
-   }
+        System.out.println(Car.var);
+        Car.var = 100;
+        System.out.println(car1.var);
+        System.out.println(car2.var);
+        System.out.println(car3.var);
+
+        Car.method();
+
+        String.format("New is string", "string");
+
+
+
+    }
 
 
 

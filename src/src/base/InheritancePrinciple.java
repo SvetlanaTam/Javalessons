@@ -22,6 +22,11 @@ public class InheritancePrinciple {
         System.out.println("Cat name is: " + cat.name);
         System.out.println("Dog name is: " + dog.name);
 
+        dog.var = 10;
+
+        System.out.println(dog.getWeight());
+
+
 
     }
 }
